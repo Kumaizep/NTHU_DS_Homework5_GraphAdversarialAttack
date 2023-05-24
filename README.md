@@ -13,6 +13,11 @@ conda install scipy numpy -y
 ```
 conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
 ```
+##  Python & Package Version
+* Python 3.10.10
+* torch 2.0.0
+* scipy 1.10.1
+* numpy 1.24.2
 
 ## Run
 ```
@@ -31,10 +36,3 @@ python3 main.py --input_file target_nodes_list.txt --data_path ./data/data.pkl -
 | #nodes | #edges | #features | #classes |
 |--------|--------|-----------|----------|
 | 2485   | 10138  | 1433      | 7        |
-
-## TODO
-* attacker.py
-  * implement your own attacker
-* main.py
-  * setup your attacker
-# NTHU_DS_Homework5_GraphAdversarialAttack
